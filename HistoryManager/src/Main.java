@@ -8,12 +8,12 @@ public class Main {
 
         historyManager.add(task1);
         historyManager.add(task2);
-        historyManager.add(task1); // Повторное добавление task1
+        historyManager.add(task1);
         historyManager.add(task3);
 
         System.out.println("History after adding tasks: " + historyManager.getHistory());
 
-        historyManager.remove(2); // Удаляем task2
+        historyManager.remove(2);
         System.out.println("History after removing task 2: " + historyManager.getHistory());
     }
 }
