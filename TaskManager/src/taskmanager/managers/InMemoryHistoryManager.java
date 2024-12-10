@@ -7,14 +7,20 @@ import java.util.*;
 public class InMemoryHistoryManager implements HistoryManager {
     private final Map<Integer, Node> nodeMap = new HashMap<>();
     private final DoublyLinkedList historyList = new DoublyLinkedList();
+    private static final int MAX_HISTORY_SIZE = 10;
 
     @Override
     public void add(Task task) {
         if (nodeMap.containsKey(task.getId())) {
             remove(task.getId());
         }
-        Node newNode = historyList.addLast(task);
-        nodeMap.put(task.getId(), newNode);
+        historyList.addLast(task);
+        nodeMap.put(task.getId(), historyList.getTail());
+
+        if (historyList.size() > MAX_HISTORY_SIZE) {
+            Node oldestNode = historyList.removeFirst();
+            nodeMap.remove(oldestNode.task.getId());
+        }
     }
 
     @Override
@@ -45,8 +51,9 @@ public class InMemoryHistoryManager implements HistoryManager {
     private static class DoublyLinkedList {
         private Node head;
         private Node tail;
+        private int size;
 
-        Node addLast(Task task) {
+        void addLast(Task task) {
             Node newNode = new Node(task);
             if (tail != null) {
                 tail.next = newNode;
@@ -56,7 +63,7 @@ public class InMemoryHistoryManager implements HistoryManager {
             if (head == null) {
                 head = newNode;
             }
-            return newNode;
+            size++;
         }
 
         void removeNode(Node node) {
@@ -70,6 +77,16 @@ public class InMemoryHistoryManager implements HistoryManager {
             } else {
                 tail = node.prev;
             }
+            size--;
+        }
+
+        Node removeFirst() {
+            if (head == null) {
+                return null;
+            }
+            Node firstNode = head;
+            removeNode(firstNode);
+            return firstNode;
         }
 
         List<Task> getTasks() {
@@ -80,6 +97,14 @@ public class InMemoryHistoryManager implements HistoryManager {
                 current = current.next;
             }
             return tasks;
+        }
+
+        int size() {
+            return size;
+        }
+
+        Node getTail() {
+            return tail;
         }
     }
 }

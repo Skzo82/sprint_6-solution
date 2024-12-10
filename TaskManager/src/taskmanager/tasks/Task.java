@@ -19,7 +19,7 @@ public class Task {
         this.id = task.id;
         this.name = task.name;
         this.description = task.description;
-        this.status = task.status; // Copia anche lo stato
+        this.status = task.status;
     }
 
 
