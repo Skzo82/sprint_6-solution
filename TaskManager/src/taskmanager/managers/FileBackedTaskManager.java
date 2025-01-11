@@ -73,8 +73,7 @@ public class FileBackedTaskManager extends InMemoryTaskManager {
 
     private void save() {
         StringBuilder sb = new StringBuilder();
-        sb.append("id,type,name,status,description,epic
-                ");
+        sb.append("id,type,name,status,description,epic");
 
         for (Task task : getTasks()) {
             sb.append(toString(task)).append("\n");
@@ -98,22 +97,22 @@ public class FileBackedTaskManager extends InMemoryTaskManager {
     private String toString(Task task) {
         if (task instanceof Subtask) {
             Subtask subtask = (Subtask) task;
-            return String.format("%d,SUBTASK,%s,%s,%s,%d", task.getId(), task.getName(), task.getStatus(), task.getDescription(), subtask.getEpicId());
+            return String.format("%d,%s,%s,%s,%s,%d", task.getId(), TaskType.SUBTASK, task.getName(), task.getStatus(), task.getDescription(), subtask.getEpicId());
         } else if (task instanceof Epic) {
-            return String.format("%d,EPIC,%s,%s,%s,", task.getId(), task.getName(), task.getStatus(), task.getDescription());
+            return String.format("%d,%s,%s,%s,%s,", task.getId(), TaskType.EPIC, task.getName(), task.getStatus(), task.getDescription());
         } else {
-            return String.format("%d,TASK,%s,%s,%s,", task.getId(), task.getName(), task.getStatus(), task.getDescription());
+            return String.format("%d,%s,%s,%s,%s,", task.getId(), TaskType.TASK, task.getName(), task.getStatus(), task.getDescription());
         }
     }
 
-    private static Task fromString(String value) {
+    private Task fromString(String value) {
         String[] fields = value.split(",");
         int id = Integer.parseInt(fields[0]);
         String type = fields[1];
         String name = fields[2];
         String status = fields[3];
         String description = fields[4];
-        int epicId = type.equals("SUBTASK") ? Integer.parseInt(fields[5]) : -1;
+        int epicId = type.equals(TaskType.SUBTASK.name()) ? Integer.parseInt(fields[5]) : -1;
 
         Task task;
         switch (type) {
@@ -140,7 +139,7 @@ public class FileBackedTaskManager extends InMemoryTaskManager {
         try {
             List<String> lines = Files.readAllLines(Paths.get(file.getPath()));
             for (String line : lines.subList(1, lines.size())) {
-                Task task = fromString(line);
+                Task task = manager.fromString(line);
                 if (task instanceof Epic) {
                     manager.addNewEpic((Epic) task);
                 } else if (task instanceof Subtask) {
@@ -150,7 +149,7 @@ public class FileBackedTaskManager extends InMemoryTaskManager {
                 }
             }
         } catch (IOException e) {
-            throw new ManagerSaveException("Ошибка загрузки менеджера из файла", e);
+            throw new ManagerSaveException("Error loading manager from file", e);
         }
         return manager;
     }
