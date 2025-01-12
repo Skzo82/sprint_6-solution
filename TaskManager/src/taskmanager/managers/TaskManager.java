@@ -1,8 +1,8 @@
 package taskmanager.managers;
 
 import taskmanager.tasks.*;
-import java.util.List;
 
+import java.util.List;
 
 public interface TaskManager {
     Task getTask(int id);
