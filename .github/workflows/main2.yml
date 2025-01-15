@@ -1,0 +1,8 @@
+name: Java Tests
+
+on:
+  pull_request:
+
+jobs:
+  build:
+    uses: Skzo82/sprint_6-solution/.github/workflows/api-tests.yml@ci
