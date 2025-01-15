@@ -73,7 +73,7 @@ public class FileBackedTaskManager extends InMemoryTaskManager {
 
     private void save() {
         StringBuilder sb = new StringBuilder();
-        sb.append("id,type,name,status,description, epic");
+        sb.append("id,type,name,status,description,epic");
 
         for (Task task : getTasks()) {
             sb.append(toString(task)).append("\n");
