@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad346db1-9856-4181-a171-d8d61e5a3d79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TaskManager/src/taskmanager/tasks/TaskType.java" afterDir="false" />
-    </list>
+    <list default="true" id="0dc1b624-1437-4367-9294-ffa409bc4c6b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,32 +13,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <excluded-from-favorite>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="master" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </excluded-from-favorite>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
+  &quot;associatedIndex&quot;: 1
 }</component>
-  <component name="ProjectId" id="2pqxyxQltcXQhc2QIhirewuaxlL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2oq1Rib9F9jhJTbqdZLqotp8Z6C" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,7 +31,9 @@
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.InMemoryTaskManagerTest.executor": "Debug",
-    "JUnit.InMemoryTaskManagerTest.testHistoryLimit.executor": "Debug",
+    "JUnit.InMemoryTaskManagerTest.testHistoryLimit.executor": "Run",
+    "JUnit.InMemoryTaskManagerTest.testHistoryPreservesPreviousVersion.executor": "Debug",
+    "JUnit.TaskManagerTest.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -57,24 +41,38 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Francesco/dev/sprint_6-solution",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "last_opened_file_path": "C:/Users/Francesco/Desktop/zaniati/TaskManager"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Francesco\Desktop\zaniati\sprint_7-solution-in-file-manager\TaskManager\src" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="ru.yandex.javacourse.schedule.task" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="taskmanager.managers" />
+      <recent name="Test" />
+      <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.InMemoryTaskManagerTest">
+    <configuration name="InMemoryTaskManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taskmanager.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taskmanager.test" />
+      <option name="MAIN_CLASS_NAME" value="taskmanager.test.InMemoryTaskManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InMemoryTaskManagerTest.testHistoryLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TaskManager" />
       <extension name="coverage">
@@ -91,44 +89,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InMemoryTaskManagerTest.testHistoryPreservesPreviousVersion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taskmanager.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taskmanager.test" />
+      <option name="MAIN_CLASS_NAME" value="taskmanager.test.InMemoryTaskManagerTest" />
+      <option name="METHOD_NAME" value="testHistoryPreservesPreviousVersion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InMemoryTaskManagerTest" />
         <item itemvalue="JUnit.InMemoryTaskManagerTest.testHistoryLimit" />
+        <item itemvalue="JUnit.InMemoryTaskManagerTest.testHistoryPreservesPreviousVersion" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ad346db1-9856-4181-a171-d8d61e5a3d79" name="Changes" comment="" />
-      <created>1733507664718</created>
+      <changelist id="0dc1b624-1437-4367-9294-ffa409bc4c6b" name="Changes" comment="" />
+      <created>1731582288105</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1733507664718</updated>
+      <updated>1731582288105</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
