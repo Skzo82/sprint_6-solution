@@ -1,3 +1,5 @@
+import taskmanager.tasks.Task;
+
 class Node {
     Task task;
     Node prev;

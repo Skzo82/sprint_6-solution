@@ -5,7 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad346db1-9856-4181-a171-d8d61e5a3d79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TaskManager/src/taskmanager/tasks/TaskType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/easycode.ignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sprint_6-solution.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sprint_6-solution.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/TaskManager.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/out/production/TaskManager/taskmanager/managers/HistoryManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/out/production/TaskManager/taskmanager/managers/InMemoryHistoryManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/out/production/TaskManager/taskmanager/managers/InMemoryTaskManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/out/production/TaskManager/taskmanager/managers/Managers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/out/production/TaskManager/taskmanager/managers/TaskManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/out/production/TaskManager/taskmanager/tasks/Epic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/out/production/TaskManager/taskmanager/tasks/Subtask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/out/production/TaskManager/taskmanager/tasks/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/out/production/TaskManager/taskmanager/tasks/TaskStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/out/production/TaskManager/taskmanager/test/InMemoryTaskManagerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/src/taskmanager/Test/FileBackedTaskManagerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/src/taskmanager/Test/InMemoryTaskManagerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/src/taskmanager/managers/FileBackedTaskManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/src/taskmanager/managers/HistoryManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/src/taskmanager/managers/InMemoryHistoryManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/src/taskmanager/managers/InMemoryTaskManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/src/taskmanager/managers/ManagerSaveException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/src/taskmanager/managers/Managers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/src/taskmanager/managers/TaskManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/src/taskmanager/tasks/Epic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/src/taskmanager/tasks/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/src/taskmanager/tasks/Subtask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/src/taskmanager/tasks/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/src/taskmanager/tasks/TaskStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/src/taskmanager/tasks/TaskType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TaskManager/taskmanager/managers/FileBackedTaskManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TaskManager/taskmanager/managers/HistoryManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TaskManager/taskmanager/managers/InMemoryHistoryManager$DoublyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TaskManager/taskmanager/managers/InMemoryHistoryManager$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TaskManager/taskmanager/managers/InMemoryHistoryManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TaskManager/taskmanager/managers/InMemoryTaskManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TaskManager/taskmanager/managers/ManagerSaveException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TaskManager/taskmanager/managers/Managers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TaskManager/taskmanager/managers/TaskManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TaskManager/taskmanager/tasks/Epic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TaskManager/taskmanager/tasks/Subtask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TaskManager/taskmanager/tasks/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TaskManager/taskmanager/tasks/TaskStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TaskManager/taskmanager/tasks/TaskType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TaskManager/taskmanager/test/FileBackedTaskManagerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TaskManager/taskmanager/test/InMemoryTaskManagerTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,19 +101,33 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.InMemoryTaskManagerTest.executor": "Debug",
+    "JUnit.FileBackedTaskManagerTest (1).executor": "Run",
+    "JUnit.FileBackedTaskManagerTest.executor": "Run",
+    "JUnit.FileBackedTaskManagerTest.testSaveAndLoad.executor": "Run",
+    "JUnit.InMemoryTaskManagerTest.executor": "Run",
     "JUnit.InMemoryTaskManagerTest.testHistoryLimit.executor": "Debug",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Francesco/dev/sprint_6-solution",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -74,8 +141,23 @@
       <recent name="taskmanager.managers" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="InMemoryTaskManagerTest.testHistoryLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.InMemoryTaskManagerTest.testPreviousVersionInHistory">
+    <configuration name="FileBackedTaskManagerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sprint_6-solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taskmanager.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taskmanager.test" />
+      <option name="MAIN_CLASS_NAME" value="taskmanager.test.FileBackedTaskManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileBackedTaskManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TaskManager" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +166,54 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="taskmanager.test" />
+      <option name="MAIN_CLASS_NAME" value="taskmanager.test.FileBackedTaskManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileBackedTaskManagerTest.testSaveAndLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sprint_6-solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taskmanager.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taskmanager.test" />
+      <option name="MAIN_CLASS_NAME" value="taskmanager.test.FileBackedTaskManagerTest" />
+      <option name="METHOD_NAME" value="testSaveAndLoad" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InMemoryTaskManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sprint_6-solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taskmanager.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taskmanager.test" />
       <option name="MAIN_CLASS_NAME" value="taskmanager.test.InMemoryTaskManagerTest" />
-      <option name="METHOD_NAME" value="testHistoryLimit" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InMemoryTaskManagerTest.testPreviousVersionInHistory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sprint_6-solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taskmanager.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="taskmanager.test" />
+      <option name="MAIN_CLASS_NAME" value="taskmanager.test.InMemoryTaskManagerTest" />
+      <option name="METHOD_NAME" value="testPreviousVersionInHistory" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,7 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InMemoryTaskManagerTest.testHistoryLimit" />
+        <item itemvalue="JUnit.InMemoryTaskManagerTest.testPreviousVersionInHistory" />
+        <item itemvalue="JUnit.InMemoryTaskManagerTest" />
+        <item itemvalue="JUnit.FileBackedTaskManagerTest (1)" />
+        <item itemvalue="JUnit.FileBackedTaskManagerTest.testSaveAndLoad" />
+        <item itemvalue="JUnit.FileBackedTaskManagerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -105,8 +237,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733507664718</updated>
+      <workItem from="1737052468678" duration="891000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -130,5 +266,31 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/taskmanager/Test/FileBackedTaskManagerTest.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/taskmanager/managers/FileBackedTaskManager.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/taskmanager/managers/InMemoryTaskManager.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/taskmanager/managers/FileBackedTaskManager.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

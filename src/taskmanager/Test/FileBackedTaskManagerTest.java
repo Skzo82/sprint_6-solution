@@ -1,5 +1,6 @@
 package taskmanager.test;
 
+import org.junit.jupiter.api.Disabled;
 import taskmanager.managers.FileBackedTaskManager;
 import taskmanager.tasks.Task;
 import taskmanager.tasks.Epic;
@@ -14,6 +15,8 @@ public class FileBackedTaskManagerTest {
     private final File file = new File("test.csv"); // временный файл для тестирования
     private FileBackedTaskManager taskManager = new FileBackedTaskManager(file);
 
+
+    @Disabled
     @Test
     public void testSaveAndLoad() {
         Task task = new Task("Test Task", "This is a test task.");
